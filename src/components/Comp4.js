@@ -9,7 +9,7 @@ const Comp4 = () => {
           return (
             <div>
               <h1>User: {user.name}</h1>
-              <h1>Age: {user.age}</h1>
+              <h1>BirtyYear: {user.birthYear}</h1>
             </div>
           );
         }}

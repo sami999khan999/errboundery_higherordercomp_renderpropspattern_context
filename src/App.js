@@ -10,7 +10,7 @@ import { UserProvider } from "./context/userContext";
 const App = () => {
   const user = {
     name: "Sami",
-    age: 21,
+    birthYear: 2003,
   };
 
   return (
