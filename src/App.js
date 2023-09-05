@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import RenderPropsPattern from "./components/RenderPropsPattern";
+import Comp1 from "./components/Comp1";
+import { UserProvider } from "./context/userContext";
+// import ChildComp from "./components/ChildComp";
+// import ErrorBoundery from "./components/ErrorBoundery";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCount from "./components/HoverCount";
 
-function App() {
+const App = () => {
+  const user = {
+    name: "Sami",
+    age: 21,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ErrorBoundery>
+        <ChildComp firstName="Luffy" age="20" />
+      </ErrorBoundery>
+      <ErrorBoundery>
+        <ChildComp firstName="Zoro" age="21" />
+      </ErrorBoundery>
+      <ErrorBoundery>
+        <ChildComp firstName="Sanji" age="21" />
+      </ErrorBoundery>
+      <ErrorBoundery>
+        <ChildComp age="21" />
+      </ErrorBoundery> */}
+
+      {/* <ClickCounter />
+      <HoverCount /> */}
+
+      {/* <RenderPropsPattern
+        render={(isLogedIn) => (isLogedIn ? "Sami" : "Visitor")}
+      /> */}
+
+      <UserProvider value={user}>
+        <Comp1 />
+      </UserProvider>
     </div>
   );
-}
+};
 
 export default App;
