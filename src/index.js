@@ -12,7 +12,7 @@
 
 // // Error Boundery
 
-// // An error boundary in React is a higher-order component (HOC) that allows you to catch and handle errors that occur during rendering, in lifecycle methods, and in constructors of a React component. Error boundaries are used to prevent unhandled errors from crashing the entire application and to provide a fallback UI or error message when an error occurs within a specific component tree.
+// // An error boundary in React is a higher-order component (HOC) that allows you to catch and handle errors that occur during rendering, in lifecycle methods, and in constructors of a React component. Error boundaries are used to prevent unhandled errors from crashing the entire application and to provide a fallback UI or error message when an error occurs within a specific component tree. //
 
 //============================================================================================================================================//
 
@@ -48,7 +48,7 @@
 
 // // User context
 
-// // In React, the "context" is a feature that allows you to pass data through the component tree without having to pass props manually at every level of the tree. It's primarily used for sharing data that is considered global or shared among multiple components, such as themes, user authentication, and localization settings.
+// // In React, the "context" is a feature that allows you to pass data through the component tree without having to pass props manually at every level of the tree. It's primarily used for sharing data that is considered global or shared among multiple components, such as themes, user authentication, and localization settings. //
 
 //============================================================================================================================================//
 
